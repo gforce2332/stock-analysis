@@ -17,8 +17,8 @@ Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://gith
 
 
 #### Results
--The analysis is well described with screenshots and code. Since Daqo dropped over 63% in 2018 it's most likely not the best stock to invest in.
- By analyzing multiple stocks better choices can be found. By comparing the stock performance between 2017 and 2018 we can see that stocks dipped quite a bit in 2018 but two stocks,
+Since Daqo dropped over 63% in 2018 it's most likely not the best stock to invest in.
+By analyzing multiple stocks better choices can be found. By comparing the stock performance between 2017 and 2018 we can see that stocks dipped quite a bit in 2018 but two stocks,
 ENPH and RUN still had a positive rate of return in 2018.
 
 In order to run analyses on all of the stocks, a program flow was created to loop through all of the stock's ticker prices. By writing statements and assigning current starting and ending prices, total daily volume and rate of return can be calculated.
