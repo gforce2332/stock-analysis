@@ -10,16 +10,15 @@ Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://gith
 * [Summary](#summary)
 
 ## Overview of project
-- Used VBA code that interacts with excel to gain valuable insights into the performance of twelve (12) different stocks.
-- Collected individual stock information in the year 2017 and 2018 to determine which stocks are worth investing in.
-- Calculated daily and yearly volume to get a better idea of how often each stock gets traded.
-- Analysis will create insights into which stocks have a greater return and are thus a more valuable stock to invest in.
+- Using VBA code that interacts with excel valuable insights were gained into the performance of twelve (12) different stocks.
+- Collecting individual stock information in the year 2017 and 2018 helped to determine which stocks are worth investing in.
+- Calculating daily and yearly volume provides a better understanding of how often each stock gets traded.
+- Analysis creates insights into which stocks have a greater return and are thus a more valuable stock to invest in.
 
 
 ## Results
 Since Daqo stock dropped over 63% in 2018 it's most likely not the best stock to invest in.
-By analyzing multiple stocks better choices can be found. By comparing the stock performance between 2017 and 2018 we can see that stocks dipped quite a bit in 2018 but two stocks,
-ENPH and RUN still had a positive rate of return in 2018.
+By analyzing multiple stocks better choices can be found. By comparing the stock performance between 2017 and 2018 we can see that stocks dipped quite a bit in 2018 but two stocks, ENPH and RUN still had a positive rate of return in 2018.
 
 In order to run analyses on all of the stocks, a program flow was created to loop through all of the stock's ticker prices. By writing statements and assigning current starting and ending prices, total daily volume and rate of return can be calculated.
 
