@@ -23,7 +23,7 @@ ENPH and RUN still had a positive rate of return in 2018.
 
 In order to run analyses on all of the stocks, a program flow was created to loop through all of the stock's ticker prices. By writing statements and assigning current starting and ending prices, total daily volume and rate of return can be calculated.
 
-rowCount code taken from https://stackoverflow.com/questions/18088729/row-count-where-data-exists 
+RowCount code taken from https://stackoverflow.com/questions/18088729/row-count-where-data-exists 
 rowEnd = Cells(Rows.Count, "A").End(xlUp).Row
  
 '![All Stock Analysis Code](https://user-images.githubusercontent.com/98711219/161366912-be3a69ea-59dc-4a4d-8f37-5e275b03839d.png)
