@@ -1,5 +1,5 @@
 # An Analysis of All Stocks
-> Performed data analysis to uncover daily volume and yearly return for multiple stocks.
+> Data analysis was performed to uncover daily volume and yearly return for multiple stocks.
 Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://github.com/gforce2332/stock-analysis/blob/master/VBA_Challenge.xlsm)
 
 
@@ -10,14 +10,14 @@ Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://gith
 * [Summary](#summary)
 
 ## Overview of project
-- Using VBA code that interacts with excel to gain valuable insights into the performance of twelve (12) different stocks.
-- Collect individual stock information in the year 2017 and 2018 and determine which stocks are worth investing in.
-- Calculate daily and yearly volume to get a better idea of how often each stock gets traded.
+- Used VBA code that interacts with excel to gain valuable insights into the performance of twelve (12) different stocks.
+- Collected individual stock information in the year 2017 and 2018 to determine which stocks are worth investing in.
+- Calculated daily and yearly volume to get a better idea of how often each stock gets traded.
 - Analysis will create insights into which stocks have a greater return and are thus a more valuable stock to invest in.
 
 
 ## Results
-Since Daqo dropped over 63% in 2018 it's most likely not the best stock to invest in.
+Since Daqo stock dropped over 63% in 2018 it's most likely not the best stock to invest in.
 By analyzing multiple stocks better choices can be found. By comparing the stock performance between 2017 and 2018 we can see that stocks dipped quite a bit in 2018 but two stocks,
 ENPH and RUN still had a positive rate of return in 2018.
 
@@ -38,10 +38,9 @@ rowEnd = Cells(Rows.Count, "A").End(xlUp).Row
 
 
 ## Summary
-* The biggest advantage of refactoring is that it leads to better quality code, makes it easier to understand and faster programming.
+* The biggest advantage of refactoring is that it leads to better quality code, faster programming and makes it easier to understand.
 * A potential disadvantage of refactoring is that it could be risky when the application is big or the code is long.
-* Refactoring made the VBA script run faster. Both the 2017 and 2018 analyses ran originally in 0.5 seconds. After refactoring the 2017 analysis ran in 0.094 seconds and 2018 in 0.078 seconds
-  as seen in the screen shots above. 
+* Refactoring made the VBA script more efficient and run faster which will be beneficial if larger data sets are used in future analyses. Both the 2017 and 2018         analyses originally ran in 0.5 seconds. After refactoring the 2017 analysis ran in 0.094 seconds and 2018 ran in 0.078 seconds as seen in the screen shots above. 
  
 
 
